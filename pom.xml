@@ -49,6 +49,12 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 		</dependency>
+		
+		<dependency>
+    <groupId>org.webjars</groupId>
+    <artifactId>leaflet</artifactId>
+    <version>1.7.1</version>
+</dependency>
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
 			<artifactId>jjwt</artifactId>
