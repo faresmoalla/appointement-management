@@ -27,6 +27,8 @@ public class LocationController {
             Map<String, Double> coordinates = new HashMap<>();
             coordinates.put("latitude", location.getLatitude());
             coordinates.put("longitude", location.getLongitude());
+            coordinates.put("description", location.getDescription());
+
             result.add(coordinates);
         }
         
